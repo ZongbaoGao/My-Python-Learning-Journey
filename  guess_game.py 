@@ -1,0 +1,8 @@
+# 猜数字小游戏
+import random
+num = random.randint(1, 10)
+guess = int(input("猜 1–10 的数字："))
+if guess == num:
+    print("猜对啦！")
+else:
+    print(f"答案是 {num}")
